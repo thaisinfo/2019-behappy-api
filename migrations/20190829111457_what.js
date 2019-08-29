@@ -1,12 +1,11 @@
-
-const table_name = "tasks";
+const table_name = "what";
 
 exports.up = function(knex, Promise) {
   return knex.schema.createTable(table_name, table => {
     table.increments("oid").primary();
     table.string("title").notNullable();
-    table.string("description").nullable();
-    table.timestamps(false, true);
+    table.integer("image_index").nullable();
+    table.timestamps();
   });
 };
 

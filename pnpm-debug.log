@@ -1,0 +1,21 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": null
+  },
+  "1 warn pnpm": {
+    "message": "Unsupported engine: wanted: {\"node\":\"^12.0.0\"} (current: {\"node\":\"v11.13.0\",\"pnpm\":\"3.7.5\"})",
+    "prefix": "/home/aluno/thais/2019-behappy-api"
+  },
+  "2 error pnpm": {
+    "message": {
+      "code": "ERR_PNPM_NO_SCRIPT"
+    },
+    "err": {
+      "name": "Error",
+      "message": "Missing script: db-migrate",
+      "code": "ERR_PNPM_NO_SCRIPT",
+      "stack": "Error: Missing script: db-migrate\n    at Object.run (/home/aluno/.nvm/versions/node/v11.13.0/lib/node_modules/pnpm/lib/cmd/run.js:17:15)"
+    }
+  }
+}
