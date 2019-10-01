@@ -1,4 +1,3 @@
-
 const table_name = "tasks";
 
 exports.up = function(knex, Promise) {
